@@ -33,3 +33,31 @@ public class Main {
         usuarios.print();
     }
 }
+
+/*
+=== INSERTAR USUARIOS ===
+Usuario [id=3, nombre=Carlos, email=carlos@mail.com]
+Usuario [id=1, nombre=Ana, email=ana@mail.com]
+Usuario [id=4, nombre=Beatriz, email=beatriz@mail.com]
+Usuario [id=2, nombre=David, email=david@mail.com]
+
+=== BUSCAR USUARIO ===
+Usuario [id=2, nombre=David, email=david@mail.com]
+Usuario [id=3, nombre=Carlos, email=carlos@mail.com]
+
+=== ELIMINAR USUARIO ID 3 ===
+Usuario con ID 3 eliminado.
+Usuario [id=1, nombre=Ana, email=ana@mail.com]
+Usuario [id=4, nombre=Beatriz, email=beatriz@mail.com]
+Usuario [id=2, nombre=David, email=david@mail.com]
+
+=== ORDENAR POR NOMBRE ===
+Usuario [id=1, nombre=Ana, email=ana@mail.com]
+Usuario [id=4, nombre=Beatriz, email=beatriz@mail.com]
+Usuario [id=2, nombre=David, email=david@mail.com]
+
+=== ORDENAR POR ID ===
+Usuario [id=1, nombre=Ana, email=ana@mail.com]
+Usuario [id=2, nombre=David, email=david@mail.com]
+Usuario [id=4, nombre=Beatriz, email=beatriz@mail.com]
+*/
