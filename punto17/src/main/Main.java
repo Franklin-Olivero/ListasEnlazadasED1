@@ -37,3 +37,39 @@ public class Main {
         red.eliminar(99);
     }
 }
+
+/*
+=== INSERTAR SENSORES ===
+Sensor [id=1, ubicacion=Sala, lecturaValor=22.5]
+Sensor [id=2, ubicacion=Cocina, lecturaValor=30.1]
+Sensor [id=3, ubicacion=Garage, lecturaValor=18.3]
+Sensor [id=4, ubicacion=Jardín, lecturaValor=25.7]
+Sensor [id=5, ubicacion=Sotano, lecturaValor=15.0]
+
+=== MEDIA DE LECTURAS ===
+Media: 22.32
+
+=== ACTUALIZAR SENSOR ID 3 ===
+Sensor con ID 3 actualizado.
+Sensor [id=1, ubicacion=Sala, lecturaValor=22.5]
+Sensor [id=2, ubicacion=Cocina, lecturaValor=30.1]
+Sensor [id=3, ubicacion=Garage Exterior, lecturaValor=20.0]
+Sensor [id=4, ubicacion=Jardín, lecturaValor=25.7]
+Sensor [id=5, ubicacion=Sotano, lecturaValor=15.0]
+
+=== MEDIA TRAS ACTUALIZAR ===
+Media: 22.66
+
+=== ELIMINAR SENSOR ID 2 ===
+Sensor con ID 2 eliminado.
+Sensor [id=1, ubicacion=Sala, lecturaValor=22.5]
+Sensor [id=3, ubicacion=Garage Exterior, lecturaValor=20.0]
+Sensor [id=4, ubicacion=Jardín, lecturaValor=25.7]
+Sensor [id=5, ubicacion=Sotano, lecturaValor=15.0]
+
+=== MEDIA TRAS ELIMINAR ===
+Media: 20.8
+
+=== ELIMINAR SENSOR INEXISTENTE ===
+Sensor con ID 99 no encontrado.
+*/
