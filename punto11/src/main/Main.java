@@ -33,3 +33,35 @@ public class Main {
         System.out.println("Saldo: $" + cuenta.calcularSaldo());
     }
 }
+
+/*
+=== INSERTAR TRANSACCIONES ===
+Transaccion [tipo=DEPOSITO, monto=1000.0, fechaHora=2026-04-23T22:20:00.895]
+Transaccion [tipo=DEPOSITO, monto=500.0, fechaHora=2026-04-24T22:20:00.895]
+Transaccion [tipo=RETIRO, monto=200.0, fechaHora=2026-04-25T22:20:00.895]
+Transaccion [tipo=RETIRO, monto=150.0, fechaHora=2026-04-26T22:20:00.895]
+Transaccion [tipo=DEPOSITO, monto=300.0, fechaHora=2026-04-27T22:20:00.895]
+Transaccion [tipo=RETIRO, monto=50.0, fechaHora=2026-04-28T22:20:00.895]
+
+=== SALDO ACTUAL ===
+Saldo: $1400.0
+
+=== RESUMEN ULTIMAS 3 TRANSACCIONES ===
+
+-- Ultimas 3 transacciones --
+Transaccion [tipo=RETIRO, monto=50.0, fechaHora=2026-04-28T22:20:00.895]
+Transaccion [tipo=DEPOSITO, monto=300.0, fechaHora=2026-04-27T22:20:00.895]
+Transaccion [tipo=RETIRO, monto=150.0, fechaHora=2026-04-26T22:20:00.895]
+Saldo actual: $1400.0
+
+=== REVERTIR ULTIMA TRANSACCION ===
+Transaccion revertida: Transaccion [tipo=RETIRO, monto=50.0, fechaHora=2026-04-28T22:20:00.895]
+Transaccion [tipo=DEPOSITO, monto=1000.0, fechaHora=2026-04-23T22:20:00.895]
+Transaccion [tipo=DEPOSITO, monto=500.0, fechaHora=2026-04-24T22:20:00.895]
+Transaccion [tipo=RETIRO, monto=200.0, fechaHora=2026-04-25T22:20:00.895]
+Transaccion [tipo=RETIRO, monto=150.0, fechaHora=2026-04-26T22:20:00.895]
+Transaccion [tipo=DEPOSITO, monto=300.0, fechaHora=2026-04-27T22:20:00.895]
+
+=== SALDO TRAS REVERSION ===
+Saldo: $1450.0
+*/
