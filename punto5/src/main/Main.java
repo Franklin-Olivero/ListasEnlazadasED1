@@ -33,3 +33,22 @@ public class Main {
         logs.print();
     }
 }
+
+/*...
+=== INSERTAR LOGS ===
+Log [fechaHora=2026-04-28T22:16:16.254, mensaje=Inicio del sistema]
+Log [fechaHora=2026-04-28T22:16:16.255, mensaje=Error de login]
+Log [fechaHora=2026-04-28T22:16:16.255, mensaje=Conexion exitosa]
+Log [fechaHora=2026-04-18T22:16:16.255, mensaje=Error menor]
+Log [fechaHora=2026-03-24T22:16:16.255, mensaje=Error critico viejo]
+Log [fechaHora=2026-03-09T22:16:16.255, mensaje=Fallo sistema antiguo]
+
+=== BUSCAR LOG POR MENSAJE ===
+Log [fechaHora=2026-04-28T22:16:16.255, mensaje=Error de login]
+
+=== ELIMINAR LOGS MAYORES A 30 DIAS ===
+Log [fechaHora=2026-04-28T22:16:16.254, mensaje=Inicio del sistema]
+Log [fechaHora=2026-04-28T22:16:16.255, mensaje=Error de login]
+Log [fechaHora=2026-04-28T22:16:16.255, mensaje=Conexion exitosa]
+Log [fechaHora=2026-04-18T22:16:16.255, mensaje=Error menor]
+*/
