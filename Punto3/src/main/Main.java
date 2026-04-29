@@ -4,7 +4,7 @@ import core.ListaEnlazadaCircular;
 import core.Person;
 
 public class Main {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
 
         System.out.println("=== LISTA DE ENTEROS ===");
         ListaEnlazadaCircular<Integer> listaInt = new ListaEnlazadaCircular<>();
