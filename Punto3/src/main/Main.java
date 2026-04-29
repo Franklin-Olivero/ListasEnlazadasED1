@@ -76,3 +76,36 @@ public class Main {
         listaPerson.print();
     }
 }
+
+/*...
+=== LISTA DE ENTEROS ===
+Lista: [ 10 | 20 | 30 ]
+Buscar 20: true
+Lista: [ 10 | 99 | 30 ]
+Lista: [ 99 | 30 ]
+
+=== LISTA DE STRINGS ===
+Lista: [ Hola | Mundo | Java ]
+Buscar 'Mundo': true
+Lista: [ Hola | Mundo | JavaFX ]
+Lista: [ Mundo | JavaFX ]
+
+=== LISTA DE OBJETOS (Person) ===
+Lista: [ [id=100, nombre=Esteban] | [id=101, nombre=Franklin] | [id=102, nombre=Daniel] ]
+Buscar Daniel: true
+
+Modificando Daniel...
+Lista: [ [id=100, nombre=Esteban] | [id=101, nombre=Franklin] | [id=120, nombre=Daniel] ]
+
+Eliminando Franklin...
+Lista: [ [id=100, nombre=Esteban] | [id=120, nombre=Daniel] ]
+
+Eliminando Esteban...
+Lista: [ [id=120, nombre=Daniel] ]
+
+Eliminando Daniel modificado...
+Lista: [ ]
+
+=== PRUEBA LISTA VAC?A ===
+Lista: [ ]
+*/
