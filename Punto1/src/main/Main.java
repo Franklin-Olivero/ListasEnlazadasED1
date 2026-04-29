@@ -73,3 +73,30 @@ public class Main {
         lista3.print();
     }
 }
+/*...
+Lista: [ 1 | 2 | 3 | 4 | 5 ]
+Lista: [ Hola | Mundo | Excelente | Y | Fenomenal ]
+Lista: [ [id=100, nombre=Esteban, edad=22] | [id=101, nombre=Franklin, edad=20] | [id=102, nombre=Daniel, edad=18] | [id=103, nombre=Oseas, edad=19] | [id=104, nombre=Michael, edad=30] ]
+
+=== BUSCAR ===
+Encontrado: [id=102, nombre=Daniel, edad=18]
+
+=== MODIFICAR ===
+Lista: [ [id=100, nombre=Esteban, edad=22] | [id=101, nombre=Franklin, edad=20] | [id=102, nombre=Daniel Actualizado, edad=25] | [id=103, nombre=Oseas, edad=19] | [id=104, nombre=Michael, edad=30] ]
+
+=== ELIMINAR EN MEDIO ===
+Lista: [ [id=100, nombre=Esteban, edad=22] | [id=102, nombre=Daniel Actualizado, edad=25] | [id=103, nombre=Oseas, edad=19] | [id=104, nombre=Michael, edad=30] ]
+
+=== ELIMINAR PRIMERO ===
+Lista: [ [id=102, nombre=Daniel Actualizado, edad=25] | [id=103, nombre=Oseas, edad=19] | [id=104, nombre=Michael, edad=30] ]
+
+=== ELIMINAR ULTIMO ===
+Lista: [ [id=102, nombre=Daniel Actualizado, edad=25] | [id=103, nombre=Oseas, edad=19] ]
+
+=== ELIMINAR TODO ===
+Lista: [  ]
+
+=== LISTA VACIA ===
+Lista: [  ]
+*/
+
